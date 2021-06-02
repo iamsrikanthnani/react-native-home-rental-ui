@@ -5,10 +5,10 @@
   <p align="center">
     An awesome dribble Home Buy and Rent Ui to React-native
     <br />
-    <a href="https://dribbble.com/shots/15302134-Home-buy-and-rent-app"><strong>Dribbble link »</strong></a>
+    <a href="https://dribbble.com/shots/15302134-Home-buy-and-rent-app" target="_blank"><strong>Dribbble link »</strong></a>
     <br/>
-   <a href="https://dribbble.com/shots/15302134-Home-buy-and-rent-app">
-    <img src="https://cdn.dribbble.com/users/4235434/screenshots/15302134/media/29cffa239ab686cff396b226aac331a5.png" alt="Logo" width="533" height="400">
+   <a href="https://dribbble.com/shots/15302134-Home-buy-and-rent-app" target="_blank">
+    <img src="https://cdn.dribbble.com/users/4235434/screenshots/15302134/media/29cffa239ab686cff396b226aac331a5.png" alt="dribbble2react" width="533" height="400">
   </a>
   </p>
 </p>
