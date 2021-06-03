@@ -1,6 +1,6 @@
 //Created on Wednesday 02 June 2021 10∶10∶10 AM
 import React, { useState } from 'react';
-import { StatusBar, View, Text, SafeAreaView, Image, Pressable } from 'react-native';
+import { StatusBar, View, Text, SafeAreaView, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { ONBOARD_STRINGS } from '../../core/Strings';
 import { Colors } from '../../core/theme';
@@ -26,7 +26,7 @@ const OnBoardScreen = (props) => {
       {/* Indicator container  */}
       <View style={styles.indicatorContainer}>
         {ONBOARD_STRINGS.ONBOARD_ARRAY.map((item, index) =>
-          <View style={[styles.indicator, index === currentSlide ? styles.indicatorActive : null]} />
+          <View key={`item-${index}`} style={[styles.indicator, index === currentSlide ? styles.indicatorActive : null]} />
         )}
       </View>
       {/* Title and text container */}
